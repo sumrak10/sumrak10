@@ -1,19 +1,15 @@
 $(function() {
-    particlesJS.load('particles-js', 'js/lib/config.json', function() { 
-        console.log('patritcles!!!');
-    });
-    top = $('.logo').scrollTop();
+    particlesJS.load('particles-js', 'js/lib/config.json', function() {});
     window.addEventListener('scroll', function() {
-        console.log(top)
-        if ( pageYOffset >= 20 ) {
-            $('nav').css({'position':'fixed', 'padding':'0 0', 'background-color':'#00000099'})
+        if ( pageYOffset >= document.documentElement.clientHeight ) {
+            $('nav').css({'position':'fixed'})
         } else {
-            $('nav').css({'position':'absolute', 'padding':'20px 0', 'background-color':'#00000000'})
+            $('nav').css({'position':'relative'})
         }
-        if ( pageYOffset >= 150 ) {
-            $('.header-main').css('opacity', '0')
-        } else {
-            $('.header-main').css('opacity', '1')
-        }
+    });
+    console.log(pageYOffset)
+    document.getElementsByClassName('button')[0].addEventListener('click', function() {
+        // window.scrollTo(0,document.documentElement.clientHeight)
+        document.getElementsByClassName('section')[0].scrollIntoView()
     });
 });

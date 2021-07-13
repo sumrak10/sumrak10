@@ -5,85 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sumrak10</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Open+Sans+Condensed:300&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
+    <div id="particles-js"></div>
     <header>
-        <div id="particles-js"></div>
-        <div class="menu-button"></div>
-        <nav>
-            <div class="col">
-                <div class="nav">
-                    <a href="#" class="nav-link nav-link-1">Главная</a>
-                    <a href="#" class="nav-link nav-link-2">Портфолио</a>
-                    <a href="#" class="nav-link nav-link-3">Контакты</a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="logo"></div>
-            </div>
-            <div class="col">
-                <div class="social">
-                    <!-- <a href="#" class="social-link social-link-1">
-                        <img src="img/social/discord.svg" alt="discord" class="social-link-img">
-                    </a> -->
-                    <a href="https://github.com/sumrak10" class="social-link social-link-2">
-                        <img src="img/social/github.svg" alt="github" class="social-link-img">
-                    </a>
-                    <a href="https://t.me/sumrak10" class="social-link social-link-3">
-                        <img src="img/social/telegram.svg" alt="telegram" class="social-link-img">
-                    </a>
-                    <a href="https://instagram.com/sumrak10_official" class="social-link social-link-4">
-                        <img src="img/social/instagram.svg" alt="instagram" class="social-link-img">
-                    </a>
-                    <a href="https://vk.com/sumrak10" class="social-link social-link-5">
-                        <img src="img/social/vk.svg" alt="vk" class="social-link-img">
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <div class="header-main">
-            <div class="greeting">
-                <div class="greeting-img"></div>
-                <div class="greeting-text">
-                    <h1 class="greeting-head">sumrak10</h1>
-                    <p class="greeting-des">programmer, designer, writer</p>
-                </div>
+        <div class="header">
+            <div class="hello-text"></div>
+            <div class="button">
+                Посмотреть
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="18" y1="13" x2="12" y2="19" />
+                    <line x1="6" y1="13" x2="12" y2="19" />
+                  </svg>
             </div>
         </div>
     </header>
     <main>
-        <div class="main">
-            <div class="container">
+        <nav>
+            <div class='nav-link home'>Главная</div>
+            <div class='nav-link about'>Обо мне</div>
+            <div class='nav-link portfolio'>Портфолио</div>
+            <div class='nav-link contact'>Контакты</div>
+        </nav>
+        <section>
+            <div class="section about">
                 <div class="cards">
-                    <div class="card card-1">
-                        <img class="card-ico" src="img/ico/programm.svg" alt="programm">
-                        <div class="card-des"><p>Programming projects</p></div>
+                    <div class="card">
+                        <img src="IMG/emoji/02 Like a boss.png">
+                        <div class="head">Быстро</div>
+                        <div class="des">Сделаю в короткие сроки</div>
                     </div>
-                    <div class="card card-2">
-                        <img class="card-ico" src="img/ico/pen.svg" alt="programm">
-                        <div class="card-des"><p>Creative projects</p></div>
+                    <div class="card">
+                        <img src="IMG/emoji/01 Crazy in love.png">
+                        <div class="head">Красиво</div>
+                        <div class="des">Любой дизайн на ваш вкус</div>
                     </div>
-                    <div class="card card-3">
-                        <img class="card-ico" src="img/ico/album.svg" alt="programm">
-                        <div class="card-des"><p>Album</p></div>
+                    <div class="card">
+                        <img src="IMG/emoji/07 Greedy.png">
+                        <div class="head">Выгодно</div>
+                        <div class="des">Скидки постоянным заказчикам</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="footer">
-            <div class="left">
-                <span class="copyright">© 2020 sumrak10 inc. All right reserved.</span>
-            </div>
-            <div class="right">
-                <div class="footer-menu">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                    <a href="#" class="footer-link">Terms of Service</a>
-                    <a href="#" class="footer-link">Legal</a>
-                </div>
-            </div>
         </div>
     </footer>
     <script src="js/lib/particles.js" defer></script>
