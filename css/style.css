@@ -1,8 +1,19 @@
+html {
+    --bg-col: #121212;
+    --col1: #FFF821;
+    --col2: #18D0F5;
+    --col3: #F52CC3;
+    --col4: #F5C218;
+    --col5: #21FFA9;
+    --l-bg: #f2f2f2;
+    --l-text: #050505;
+    --l-des: #555555;
+}
 body, html {
     margin: 0;
 }
 body {
-    background-color: #121212;
+    background-color: var(--bg-col);
     color: #f5f5f5;
     overflow-x: hidden;
     font-family: 'ComfortaaMedium';
@@ -39,18 +50,20 @@ body {
     justify-content: center;
     font-family: 'PoiretOne';
     font-size: 1.3em;
-    font-weight: 800;
+    font-weight: 600;
     padding: 12px;
+    backdrop-filter: blur(1px);
     border: #f5f5f5 2px solid;
-    transition: all 0.5s;
+    transition: all 0.5s cubic-bezier(.89,.01,1,1.85);
 }
 .header .button:hover {
-    background-color: #18D0F5;
-    border: #18D0F5 2px solid;
-    box-shadow: 0px 0px 20px 5px #18D0F5;
+    backdrop-filter: blur(1px);
+    background-color: #18D0F580;
+    border: #0000 2px solid;
+    box-shadow: 0px 0px 20px 5px #18D0F580;
 }
 .header .button svg {
-    transition: all 0.5s;
+    transition: all 0.5s cubic-bezier(0,1.01,1,.01);
     margin-left: 5px;
     transform: rotate(-90deg);
 }
@@ -82,8 +95,8 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #f2f2f2;
-    color: #050505;
+    background-color: var(--l-bg);
+    color: var(--l-text);
 }
 .section {
     width: 80%;
@@ -92,13 +105,14 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .about .cards .card {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10%;
+    margin: 10% 4%;
 }
 .about .cards .card .head {
     font-family: 'ComfortaaBold';
@@ -107,13 +121,111 @@ section {
 }
 .about .cards .card .des {
     font-family: 'ComfortaaSemiBold';
-    color: #555555;
+    color: var(--l-des);
     text-align: center;
     font-size: 1.2em;
     margin: 0%;
 }
-
-
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 50%;
+}
+.me .photo {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 30em;
+    min-width: 20em;
+    z-index: 5;
+}
+.me .photo div:nth-child(1) {
+    box-sizing: border-box;
+    position: absolute;
+    min-height: 30em;
+    min-width: 20em;
+    top: -8px;
+    left: 8px;
+    border: black 2px solid;
+    z-index: 6;
+}
+.me .photo div:nth-child(2) {
+    position: absolute;
+    background-image: url('../img/-2147483648_-211166.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 30em;
+    min-width: 20em;
+    z-index: 7;
+}
+.me .photo div:nth-child(3) {
+    box-sizing: border-box;
+    position: absolute;
+    height: 30em;
+    width: 20em;
+    top: 8px;
+    left: -8px;
+    border: black 2px dotted;
+    z-index: 8;
+}
+.text {
+    margin-top: 1em;
+    max-width: 20em;
+}
+.graphs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 50%;
+    height: auto;
+}
+.graph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.graph .text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 7em;
+    height: 5em;
+    margin-right: 1em;
+}
+.graph .range {
+    display: flex;
+    align-items: center;
+    width: 20em;
+    height: 3em;
+}
+.graph .range div {
+    height: 50%;
+    background-color: var(--col5);
+}
+.graph:nth-child(1) .range div {
+    width: 80%;
+}
+.graph:nth-child(2) .range div {
+    width: 75%;
+}
+.graph:nth-child(3) .range div {
+    width: 70%;
+}
+.graph:nth-child(4) .range div {
+    width: 50%;
+}
+.graph:nth-child(5) .range div {
+    width: 40%;
+}
 @font-face {
     font-family: "ComfortaaBold"; 
     src: url("../font/Comfortaa/Comfortaa-Bold.ttf") format("truetype"); 

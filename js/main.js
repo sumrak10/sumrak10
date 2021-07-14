@@ -7,8 +7,9 @@ $(function() {
             $('nav').css({'position':'relative'})
         }
     });
+    // document.
     console.log(pageYOffset)
-    document.getElementsByClassName('button')[0].addEventListener('click', function() {
+    document.querySelector('#button').addEventListener('click', function() {
         // window.scrollTo(0,document.documentElement.clientHeight)
         document.getElementsByClassName('section')[0].scrollIntoView()
     });

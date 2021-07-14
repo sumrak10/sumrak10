@@ -1,23 +1,23 @@
 {
   "particles": {
     "number": {
-      "value": 30,
+      "value": 95,
       "density": {
-        "enable": true,
-        "value_area": 1000
+        "enable": false,
+        "value_area": 10000
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#f5c218"
     },
     "shape": {
-      "type": "circle",
+      "type": "edge",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 6
       },
       "image": {
         "src": "img/github.svg",
@@ -27,7 +27,7 @@
     },
     "opacity": {
       "value": 0.5,
-      "random": false,
+      "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -36,34 +36,34 @@
       }
     },
     "size": {
-      "value": 5,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 80,
+        "speed": 40,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 300,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "distance": 160.24100246771155,
+      "color": "#f5c218",
+      "opacity": 0.21632535333141062,
+      "width": 0
     },
     "move": {
       "enable": true,
-      "speed": 5,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
+      "speed": 2,
+      "direction": "bottom",
+      "random": true,
+      "straight": true,
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "enable": true,
+        "rotateX": 7050.6041085793095,
+        "rotateY": 10000
       }
     }
   },
@@ -75,31 +75,31 @@
         "mode": "grab"
       },
       "onclick": {
-        "enable": false,
-        "mode": "push"
+        "enable": true,
+        "mode": "repulse"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 200,
+        "distance": 170.41996348143653,
         "line_linked": {
           "opacity": 1
         }
       },
       "bubble": {
-        "distance": 300,
-        "size": 10,
+        "distance": 400,
+        "size": 40,
         "duration": 2,
-        "opacity": 0.8,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 100,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 1
+        "particles_nb": 4
       },
       "remove": {
         "particles_nb": 2
