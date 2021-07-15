@@ -5,9 +5,10 @@ html {
     --col3: #F52CC3;
     --col4: #F5C218;
     --col5: #21FFA9;
-    --l-bg: #f2f2f2;
-    --l-text: #050505;
-    --l-des: #555555;
+    --l-bg: #121212;
+    --l-text: #dbdbdb;
+    --l-des: #bdbdbd;
+    scroll-behavior: smooth;
 }
 body, html {
     margin: 0;
@@ -101,6 +102,7 @@ section {
 .section {
     width: 80%;
 }
+
 .about .cards {
     display: flex;
     align-items: center;
@@ -131,6 +133,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 10em;
 }
 .me {
     display: flex;
@@ -151,10 +154,11 @@ section {
     position: absolute;
     min-height: 30em;
     min-width: 20em;
-    top: -8px;
-    left: 8px;
-    border: black 2px solid;
+    top: 0px;
+    left: 0px;
+    border: var(--col4) .2em solid;
     z-index: 6;
+    transition: all 0.5s;
 }
 .me .photo div:nth-child(2) {
     position: absolute;
@@ -171,12 +175,13 @@ section {
     position: absolute;
     height: 30em;
     width: 20em;
-    top: 8px;
-    left: -8px;
-    border: black 2px dotted;
+    top: 0px;
+    left: 0px;
+    border: var(--col5) .3em dotted;
     z-index: 8;
+    transition: all 0.5s;
 }
-.text {
+.me .text {
     margin-top: 1em;
     max-width: 20em;
 }
@@ -192,14 +197,15 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 1s;
 }
 .graph .text {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     width: 7em;
-    height: 5em;
-    margin-right: 1em;
+    height: 7em;
+    /* margin-right: 1em; */
 }
 .graph .range {
     display: flex;
@@ -209,23 +215,116 @@ section {
 }
 .graph .range div {
     height: 50%;
+}
+.graph:nth-child(2n-1) .range div {
+    background-color: var(--col4);
+}
+.graph:nth-child(2n) .range div {
     background-color: var(--col5);
 }
 .graph:nth-child(1) .range div {
-    width: 80%;
+    width: 0%;
+    transition: all 1s cubic-bezier(.45,.42,.06,1.55);
 }
 .graph:nth-child(2) .range div {
-    width: 75%;
+    width: 0%;
+    transition: all 1.3s cubic-bezier(.45,.42,.06,1.55);
 }
 .graph:nth-child(3) .range div {
-    width: 70%;
+    width: 0%;
+    transition: all 1.6s cubic-bezier(.45,.42,.06,1.55);
 }
 .graph:nth-child(4) .range div {
-    width: 50%;
+    width: 0%;
+    transition: all 1.9s cubic-bezier(.45,.42,.06,1.55);
 }
 .graph:nth-child(5) .range div {
-    width: 40%;
+    width: 0%;
+    transition: all 2.1s cubic-bezier(.45,.42,.06,1.55);
 }
+
+section:last-child {
+    background-color: var(--col5);
+    color: var(--l-bg);
+}
+.section:last-child {
+    width: 100%;
+}
+.portfolio {
+    position: relative;
+    color: var(--col5);
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--l-bg);
+    border-radius: 0 0 -100% 100%;
+    transition: all 1s;
+}
+.portfolio p {
+    text-align: center;
+    display: block;
+    width: 8em;
+    position: relative;
+    font-weight: 600;
+    color: var(--col5);
+}
+.portfolio p::before {
+    position: absolute;
+    content: '';
+    height: 0.1em;
+    top: 1.5em;
+    left: 1em;
+    width: 3em;
+    background-color: var(--col5);
+}
+.portfolio p::after {
+    position: absolute;
+    content: '';
+    height: 0.1em;
+    top: 1.5em;
+    right: 1em;
+    width: 3em;
+    background-color: var(--col5);
+}
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    perspective: 100em;
+}
+.portfolio-card {
+    position: relative;
+    text-decoration: none;
+    color: var(--l-bg);
+    background-color: var(--col1);
+    background-image: url('../img/TheWithcer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+    margin: 5em 3em;
+    min-width: 25em;
+    min-height: 15em;
+    box-shadow: 0px 1px 43px 11px rgba(34, 60, 80, 0.7);
+    transition: all 0.5s;
+}
+.portfolio-card div {
+    position: absolute;
+    bottom: -2em;
+    left: 1em;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.portfolio-card:hover div {
+    bottom: 1em;
+    opacity: 1;
+}
+.portfolio-card:hover {
+    transform: rotateX(20deg);
+}
+
 @font-face {
     font-family: "ComfortaaBold"; 
     src: url("../font/Comfortaa/Comfortaa-Bold.ttf") format("truetype"); 
