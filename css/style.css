@@ -74,10 +74,10 @@ body {
 
 nav {
     display: flex;
-    /* position: fixed; */
     top: 0;
     left: 0;
     align-items: center;
+    justify-content: space-between;
     flex-direction: center;
     width: 100%;
     height: 50px;
@@ -85,6 +85,26 @@ nav {
     font-family: 'PoiretOne';
     font-size: 1.5em;
     z-index: 999;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    width: 50%;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+.social-links a {
+    margin-right: .5em;
+}
+.social-links a svg {
+    width: 1em;
+    height: 1em;
 }
 .nav-link {
     margin: 0 2%;
@@ -252,6 +272,7 @@ section:nth-child(2) .section {
 section:nth-child(3) {
     background-color: var(--col5);
     color: var(--l-bg);
+    border-radius: 0 0 5em 5em;
 }
 section:nth-child(3) .section {
     width: 100%;
@@ -263,11 +284,8 @@ section:nth-child(3) .section {
     width: 100vw;
     height: 5em;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    /* flex-direction: column; */
     background-color: var(--l-bg);
-    /* border-radius: 0 0 100% 100%; */
     transition: all 1s;
 }
 .portfolio p {
@@ -353,10 +371,100 @@ section:nth-child(4) {
     flex-direction: column;
     background-color: var(--l-bg);
     color: var(--l-text);
-    height: 100vh;
 }
 section:nth-child(4) .section {
     width: 80%;
+}
+.contact div {
+    margin: auto;
+    width: 30em;
+}
+.contact div form {
+    margin: 7em 0;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--col2);
+    color: var(--l-bg);
+    border-radius: 5em;
+    font-size: 1.2em;
+}
+.contact div form p {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.contact div form p label {
+    margin-bottom: 0.3em;
+    border-radius:0.5em;
+    background-color: #fff;
+    padding: 0.3em;
+}
+.contact div form p input[type=text], .contact div form p textarea {
+    padding: 10px;
+    font-size: 0.9em;
+    border: 0;
+    border-bottom: 0.1em solid var(--col3);
+    border-top: 0.1em solid #00000000;
+    border-left: 0.1em solid #00000000;
+    border-right: 0.1em solid #00000000;
+    border-radius:0.5em;
+    box-sizing: border-box;
+}
+.contact div form p input:focus {
+    border: 0;
+    border: 0.1em solid var(--col3);
+}
+.contact div form p textarea {
+    resize: vertical;
+}
+.contact div form p button {
+    position: relative;
+    width: 7em;
+    height: 3em;
+    border-radius:0.5em;
+    border: 0;
+    font-size: 1.2em;
+    font-family: 'ComfortaaMedium';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendbutp, .sendbutsvg {
+    transition: all 0.3s;
+    position: absolute;
+}
+.sendbutp {
+    top: 0em;
+    opacity: 1;
+}
+.sendbutsvg {
+    top: 3em;
+    opacity: 0;
+}
+.sendbut:hover .sendbutp {
+    top: -3em;
+    opacity: 0;
+}
+.sendbut:hover .sendbutsvg {
+    top: 0.5em;
+    opacity: 1;
+}
+*:focus {outline:none !important;}
+
+footer {
+    width: 100vw;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div p {
+    margin: 1em;
 }
 
 @font-face {

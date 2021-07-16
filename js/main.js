@@ -6,9 +6,10 @@ $(function() {
         var top = elementBoundary.top;
         var bottom = elementBoundary.bottom;
         var height = elementBoundary.height;
-        return ((top + height >= 0) && (height + window.innerHeight >= bottom*(persent/100+1)));
+        return ((top + height-10 >= 0) && (height + window.innerHeight >= bottom*(persent/100+1)));
     }
     window.addEventListener('scroll', function() {
+        log(isPartiallyVisible(document.getElementsByClassName('contact')[0],85))
         if ( pageYOffset >= document.documentElement.clientHeight ) {
             $('nav').css({'position':'fixed'})
             $('#navmargin').css({'margin-top':'50px'})
@@ -27,7 +28,26 @@ $(function() {
             $('.graph:nth-child(4) .range div').css({'width': '50%'})
             $('.graph:nth-child(5) .range div').css({'width': '40%'})
         }
-        log(isPartiallyVisible(document.getElementsByClassName('portfolio')[0],90))
+        if (isPartiallyVisible(document.getElementsByClassName('header')[0],40)) {
+            $('#home').css({'color': '#F500C2'})
+        } else {
+            $('#home').css({'color': '#f5f5f5'})
+        }
+        if (isPartiallyVisible(document.getElementsByClassName('about')[0],55)) {
+            $('#about').css({'color': '#F500C2'})
+        } else {
+            $('#about').css({'color': '#f5f5f5'})
+        }
+        if (isPartiallyVisible(document.getElementsByClassName('portfolio-cards')[0],40)) {
+            $('#portfolio').css({'color': '#F500C2'})
+        } else {
+            $('#portfolio').css({'color': '#f5f5f5'})
+        }
+        if (isPartiallyVisible(document.getElementsByClassName('contact')[0],80)) {
+            $('#contact').css({'color': '#F500C2'})
+        } else {
+            $('#contact').css({'color': '#f5f5f5'})
+        }
         // if (isPartiallyVisible(document.getElementsByClassName('portfolio')[0],90)) { // pageYoffset / Ypos
         //     $('.portfolio p::before').css({'left': '-10em'})
         //     $('.portfolio p::after').css({'right': '-10em'})
@@ -36,6 +56,22 @@ $(function() {
     document.querySelector('#button').addEventListener('click', function() {
         // window.scrollTo(0,document.documentElement.clientHeight)
         document.getElementsByClassName('section')[0].scrollIntoView()
+    });
+    document.querySelector('#home').addEventListener('click', function() {
+        // window.scrollTo(0,document.documentElement.clientHeight)
+        document.getElementsByClassName('header')[0].scrollIntoView()
+    });
+    document.querySelector('#about').addEventListener('click', function() {
+        // window.scrollTo(0,document.documentElement.clientHeight)
+        document.getElementsByClassName('about')[0].scrollIntoView()
+    });
+    document.querySelector('#portfolio').addEventListener('click', function() {
+        // window.scrollTo(0,document.documentElement.clientHeight)
+        document.getElementsByClassName('portfolio-cards')[0].scrollIntoView()
+    });
+    document.querySelector('#contact').addEventListener('click', function() {
+        // window.scrollTo(0,document.documentElement.clientHeight)
+        document.getElementsByClassName('contact')[0].scrollIntoView()
     });
 
     // var cvs = document.getElementById("bubbles");

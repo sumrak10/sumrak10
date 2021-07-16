@@ -1,6 +1,6 @@
 var values = {
 	friction: 1,
-	timeStep: 0.2,
+	timeStep: 0.3,
 	amount: 15,
 	mass: 5,
 	count: 0
