@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 95,
+      "value": 150,
       "density": {
         "enable": false,
         "value_area": 10000
@@ -11,7 +11,7 @@
       "value": "#f5c218"
     },
     "shape": {
-      "type": "edge",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
