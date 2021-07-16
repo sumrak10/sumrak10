@@ -38,27 +38,27 @@ $(function() {
         document.getElementsByClassName('section')[0].scrollIntoView()
     });
 
-    var cvs = document.getElementById("bubbles");
-    cvs.width = window.innerWidth;
-    cvs.height = Math.round(window.innerHeight/5);
-    let w = window.innerWidth,
-        h = Math.round(window.innerHeight/5);
-    if (cvs.getContext) {
-        var ctx = cvs.getContext('2d');
-        let x = 0
-        function draw() {
-            ctx.fillStyle = '#121212';
-            ctx.fillRect(0, 0, w, h);
+    // var cvs = document.getElementById("bubbles");
+    // cvs.width = window.innerWidth;
+    // cvs.height = Math.round(window.innerHeight/5);
+    // let w = window.innerWidth,
+    //     h = Math.round(window.innerHeight/5);
+    // if (cvs.getContext) {
+    //     var ctx = cvs.getContext('2d');
+    //     let x = 0
+    //     function draw() {
+    //         ctx.fillStyle = '#121212';
+    //         ctx.fillRect(0, 0, w, h);
 
-            ctx.beginPath();
-            ctx.fillStyle = "#21FFA9";
-            ctx.arc(x, 50, 20, 0, 2 * Math.PI);
-            ctx.closePath();
-            ctx.fill()
+    //         ctx.beginPath();
+    //         ctx.fillStyle = "#21FFA9";
+    //         ctx.arc(x, 50, 20, 0, 2 * Math.PI);
+    //         ctx.closePath();
+    //         ctx.fill()
 
-            x = x + 1
-            window.requestAnimationFrame(draw);
-        }
-        draw()
-      }
+    //         x = x + 1
+    //         window.requestAnimationFrame(draw);
+    //     }
+    //     draw()
+    //   }
 });
