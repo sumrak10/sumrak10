@@ -84,19 +84,25 @@ nav {
     background-color: #323232;
     font-family: 'PoiretOne';
     font-size: 1.5em;
+    transition: all 0.3s;
     z-index: 999;
+}
+.burger {
+    display: none;
 }
 .nav-links {
     display: flex;
     align-items: center;
     flex-direction: center;
-    width: 50%;
+        transition: all 0.5s;
+        width: 50%;
 }
 .social-links {
     display: flex;
     align-items: center;
     flex-direction: center;
     justify-content: flex-end;
+    transition: all 0.5s;
     width: 50%;
 }
 .social-links a {
@@ -124,10 +130,10 @@ section:nth-child(2) .section {
 }
 
 .about {
-    background-image: url('../img/bgcircle.png'), url('../img/bgcircle.png');
+    /* background-image: url('../img/bgcircle.png'), url('../img/bgcircle.png');
     background-size: 10em;
     background-repeat: no-repeat;
-    background-position: -3em 30%, 100% 90%;
+    background-position: -3em 30%, 100% 90%; */
 }
 .about .cards {
     display: flex;
@@ -421,7 +427,7 @@ section:nth-child(4) .section {
 .contact div form p textarea {
     resize: vertical;
 }
-.contact div form p button {
+.contact div form p .sendbut {
     position: relative;
     width: 7em;
     height: 3em;
@@ -434,7 +440,7 @@ section:nth-child(4) .section {
     justify-content: center;
 }
 .sendbutp, .sendbutsvg {
-    transition: all 0.3s;
+    transition: all 0.3s cubic-bezier(.7,.15,.85,.24);
     position: absolute;
 }
 .sendbutp {
