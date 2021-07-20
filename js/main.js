@@ -1,6 +1,5 @@
 $(function() {
     const log = console.log
-    particlesJS.load('particles-js', 'js/lib/config.json', function() {});
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         $('.burger').on('click', function(e) {
             // e.preventDefault();
@@ -8,10 +7,12 @@ $(function() {
             $('nav').toggleClass('nav-active')
             $('.nav-links').toggleClass('nav-links-active')
             $('.social-links').toggleClass('social-links-active')
-            log('click')
         })
+        particlesJS.load('particles-js', 'js/lib/config-lite.json', function() {});
+    } else {
+        particlesJS.load('particles-js', 'js/lib/config.json', function() {});
     }
-        function isPartiallyVisible(el,persent=30) {
+    function isPartiallyVisible(el,persent=30) {
         var elementBoundary = el.getBoundingClientRect();
         var top = elementBoundary.top;
         var bottom = elementBoundary.bottom;
@@ -31,11 +32,11 @@ $(function() {
             $('.me .photo div:nth-child(3)').css({'top': '8px','left': '-8px'})
         }
         if (isPartiallyVisible(document.getElementsByClassName('graphs')[0],40)) {
-            $('.graph:nth-child(1) .range div').css({'width': '80%'})
-            $('.graph:nth-child(2) .range div').css({'width': '75%'})
-            $('.graph:nth-child(3) .range div').css({'width': '75%'})
-            $('.graph:nth-child(4) .range div').css({'width': '50%'})
-            $('.graph:nth-child(5) .range div').css({'width': '40%'})
+            $('.graph:nth-child(1) .range div').css({'width': '90%'})
+            $('.graph:nth-child(2) .range div').css({'width': '85%'})
+            $('.graph:nth-child(3) .range div').css({'width': '80%'})
+            $('.graph:nth-child(4) .range div').css({'width': '60%'})
+            $('.graph:nth-child(5) .range div').css({'width': '50%'})
         }
         if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent))) {
             if (isPartiallyVisible(document.getElementsByClassName('header')[0],40)) {

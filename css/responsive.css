@@ -131,3 +131,73 @@
         font-size: 1em;
     }
 }
+@media (max-width: 570px) {
+    .graph .text {
+        width: 7em;
+        height: 5em;
+        font-size: 0.8em;
+    }
+    .graph .range {
+        width: 20em;
+        height: 2em;
+    }
+}
+@media (max-width: 500px) {
+    .header .button {
+        display: none;
+    }
+}
+@media (max-width: 420px) {
+    .header .button {
+        padding: 8px;
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .about .cards .card {
+        width: 15em;
+        height: 10em;
+    }
+    .about .cards .card .head {
+        font-size: 1.5em;
+    }
+    .about .cards .card .des {
+        font-size: 1em;
+    }
+    .graph .text {
+        width: 4em;
+        height: 4em;
+    }
+    .graph .range {
+        width: 15em;
+        height: 2em;
+    }
+    .me .photo {
+        height: 20em;
+        width: 15em;
+    }
+    .me .text {
+        font-size: 0.9em;
+        max-width: 15em;
+    }
+    .portfolio p {
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    .portfolio p::before {
+        height: 0.1em;
+        left: 25%;
+        width: 50%;
+    }
+    .portfolio-card {
+        margin: 1em 3em;
+        min-width: 19em;
+        min-height: 13em;
+    }
+    .contact div {
+        margin: auto;
+        width: 18em;
+    }
+    footer div p {
+        font-size: 0.8em;
+    }
+}
