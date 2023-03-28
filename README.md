@@ -1,7 +1,8 @@
 ### Привет, я Нурлан Уразкулов!
 
 Я специализируюсь на:
-- Веб-разработке (python)
+- Backend-разработке (fastapi, aiohttp, django)
+- Fronend-разработке (react, electron) 
 - Веб-дизайне (figma)
 - Creative разработке
 
