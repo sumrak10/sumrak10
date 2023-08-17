@@ -10,3 +10,5 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=compact&exclude_repo=task-python,ServicesLog,SmrkMusic,CuteAndCut,rpg-tg-bot,smrkrp-tower,BlockChain,SI-Messenger,FastHelp,FastHelp-backend,AE_bot,TermitProject,FractalsProject,SpiralProject,RolePlayBot,MusicSchool,MusicSchoolbackend,PlantPlanet,TheWithcer,Django)
+
+[![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/64de66e1ced78d293521bc65?variant=dark)](https://roadmap.sh)
