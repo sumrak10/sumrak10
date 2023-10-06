@@ -2,8 +2,8 @@
 
 Я специализируюсь на:
 - Backend разработке
-- Архитектуре микросервисных систем
-- CI/CD
+- Архитектуре систем
+
 
 
 Мой стек: Python, FastAPI, Docker, Django, PostgreSQL, SQLAlchemy, Redis, Celery
