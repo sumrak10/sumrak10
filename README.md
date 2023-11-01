@@ -26,6 +26,8 @@
     <img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original-wordmark.svg" title="Redis" alt="Redis" width="80" height="80"/>
 </div>
 
+---
+
 <div align="center">
   
 [![GitHub Streak](https://streak-stats.demolab.com?user=sumrak10&theme=dracula&mode=weekly)](https://git.io/streak-stats)
