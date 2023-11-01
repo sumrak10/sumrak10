@@ -10,7 +10,7 @@
 
 <div align="center">
   <p>
-    I'm good at <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=1000&color=F7F7F7&vCenter=true&random=true&width=140&height=20&lines=FastAPI;SQLAlchemy;Docker;Python;Postgres;Redis" alt="Typing SVG" /></a>
+    I'm good at <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=1000&color=F7F7F7&random=true&width=140&height=20&lines=FastAPI;SQLAlchemy;Docker;Python;Postgres;Redis" alt="Typing SVG" /></a>
   </p>
 </div>
 
