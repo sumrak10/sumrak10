@@ -21,7 +21,7 @@
 </div>
 </div>
 
-[![Omid Nikrah StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=6558042)](https://stackoverflow.com/users/6558042/omid-nikrah)
+[![Omid Nikrah StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=565736&theme=dark)](https://ru.stackoverflow.com/users/565736/sxmrxk)  
 
 
 <div>
