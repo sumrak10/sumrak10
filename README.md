@@ -7,7 +7,7 @@
 
 
 ##### Мой стек: Python, FastAPI, Docker, Django, PostgreSQL, SQLAlchemy, Redis, Celery
-<div>
+<div style="background-color: black;">
   <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="80" height="80"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="React" alt="React" width="80" height="80"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="HTML5" alt="HTML" width="80" height="80"/>&nbsp;
