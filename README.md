@@ -7,7 +7,6 @@
   <h2>Hi everyone, I'm sxmrxk</h2>
 </div>
 
----
 
 <div align="center">
 <p>My specializations:</p>
