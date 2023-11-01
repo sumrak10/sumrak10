@@ -9,6 +9,12 @@
 </div>
 
 <div align="center">
+  <p>
+    I'm good at <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=1000&color=F7F7F7&center=true&vCenter=true&random=true&width=435&height=20&lines=FastAPI;SQLAlchemy;Docker;Python;Postgres;Redis" alt="Typing SVG" /></a>
+  </p>
+</div>
+
+<div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/sqlalchemy/sqlalchemy-original-wordmark.svg" title="SQLAlchemy" alt="SQLAlchemy" width="160" height="160"/>
 </div>
