@@ -31,21 +31,8 @@
 </tr>
 </table>
 
-
-<table>
-  <tr>
-    <td>
-      <div>
-        ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
-      </div>
-    </td>
-    <td>
-      <div>
-        ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
-      </div>
-    </td>
-  </tr>
-</table>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
 
 <div>
 
