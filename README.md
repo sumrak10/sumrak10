@@ -10,7 +10,7 @@
 
 
 <div align="center">
-### Мой стек: 
+Мой стек: 
 </div>
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
