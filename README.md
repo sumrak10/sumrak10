@@ -8,7 +8,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=2000&pause=500&color=F7F7F7&center=true&vCenter=true&random=false&width=435&height=20&lines=Backend+development;Web+architecture;Development+Operations;Team+leading" alt="Typing SVG" /></a>
 </div>
 
-<div align="center>
+<div align="center">
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/sqlalchemy/sqlalchemy-original-wordmark.svg" title="SQLAlchemy" alt="SQLAlchemy" width="160" height="160"/>
