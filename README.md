@@ -1,6 +1,6 @@
 <div align="center">
   <img src="/media/FD1RkPFWQAUNpLZ.gif" width="320" height="320"/>
-  <h1>Hi everyone, I'm sxmrxk</h1>
+  <h2>Hi everyone, I'm sxmrxk</h2>
   
   [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
