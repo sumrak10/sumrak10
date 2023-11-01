@@ -1,12 +1,12 @@
 ### Привет, я Нурлан Уразкулов!
 
-Я специализируюсь на:
+##### Я специализируюсь на:
 - Backend разработке
 - Архитектуре систем
 
 
 
-Мой стек: Python, FastAPI, Docker, Django, PostgreSQL, SQLAlchemy, Redis, Celery
+##### Мой стек: Python, FastAPI, Docker, Django, PostgreSQL, SQLAlchemy, Redis, Celery
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
@@ -17,6 +17,8 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="VSCode" alt="VSCode" width="40" height="40"/>&nbsp;
 </div>
+
+##### Ссылки:
 
 [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
