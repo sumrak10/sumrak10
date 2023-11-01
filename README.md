@@ -4,7 +4,7 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
 
 <div align="center">
-My specializations:
+My specializations: <br>
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=2000&pause=500&color=F7F7F7&random=false&width=435&lines=Backend+development;Web+architecture;Development+Operations" alt="Typing SVG" /></a>
 </div>
 
