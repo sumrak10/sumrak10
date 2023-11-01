@@ -32,12 +32,21 @@
 </table>
 
 
-
+<table>
+  <tr>
+    <td>
+      
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
+    </td>
+    <td>
+    
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
+    </td>
+  </tr>
+</table>
 <div>
   
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
 
 [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sumrak10&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
