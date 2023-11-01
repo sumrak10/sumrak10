@@ -33,4 +33,4 @@
 
 </div>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sumrak10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=sumrak10&theme=dracula&mode=weekly)](https://git.io/streak-stats)
