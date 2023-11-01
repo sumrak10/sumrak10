@@ -31,7 +31,7 @@
 </div>
 <div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10t&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
 
 </div>
 <div align="center">
