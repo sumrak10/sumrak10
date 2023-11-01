@@ -7,6 +7,7 @@
   
 </div>
 
+---
 
 <div align="center">
 <p>My specializations:</p>
