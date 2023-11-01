@@ -8,11 +8,6 @@ My specializations: <br>
 <a align="center" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=2000&pause=500&color=F7F7F7&random=false&width=435&lines=Backend+development;Web+architecture;Development+Operations" alt="Typing SVG" /></a>
 </div>
 
-
-
-<div align="center">
-Мой стек: 
-</div>
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/sqlalchemy/sqlalchemy-original-wordmark.svg" title="SQLAlchemy" alt="SQLAlchemy" width="160" height="160"/>
