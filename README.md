@@ -34,12 +34,10 @@
 
 <table>
   <tr>
-    <td>
-      
+    <td align="center">
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
     </td>
-    <td>
-    
+    <td align="center">
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
     </td>
   </tr>
