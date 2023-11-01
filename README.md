@@ -24,7 +24,8 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) <br>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=compact&show_icons=true&theme=transparent)
 
 
