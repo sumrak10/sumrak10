@@ -24,7 +24,15 @@
     <img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original-wordmark.svg" title="Redis" alt="Redis" width="80" height="80"/>
 </div>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sumrak10&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Streak](https://streak-stats.demolab.com?user=sumrak10&theme=dracula&mode=weekly)](https://git.io/streak-stats)
+<div align="center">
+    ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
+</div>
+<div align="center">
+    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
+</div>
+<div align="center">
+    [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sumrak10&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+</div>
+<div align="center">
+    [![GitHub Streak](https://streak-stats.demolab.com?user=sumrak10&theme=dracula&mode=weekly)](https://git.io/streak-stats)
+</div>
