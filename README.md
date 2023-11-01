@@ -26,12 +26,12 @@
 
 <div align="center">
   
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&layout=pie&show_icons=true&show=reviews&theme=dracula)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
     
 </div>
 <div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10t&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=pie&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
 
 </div>
 <div align="center">
