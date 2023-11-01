@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <p>
+  <p align="center">
     I'm good at <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=1000&color=F7F7F7&vCenter=true&random=true&width=140&height=30&lines=FastAPI;SQLAlchemy;Docker;Python;Postgres;Redis" alt="Typing SVG" /></a>
   </p>
 </div>
