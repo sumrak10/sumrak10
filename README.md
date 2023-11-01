@@ -10,7 +10,6 @@
 
 <table align="center" nowrap="nowrap">
 <tr>
-  <th><a href="source/plugins/isocalendar/README.md">📅 Isometric commit calendar</a></th>
   <td align="center">
     <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
   </td>
