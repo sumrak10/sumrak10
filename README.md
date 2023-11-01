@@ -21,7 +21,7 @@
 </div>
 </div>
 
-##### Ссылки:
+[![Omid Nikrah StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=6558042)](https://ru.stackoverflow.com/users/565736/sxmrxk)
 
 
 <div>
