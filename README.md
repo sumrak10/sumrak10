@@ -7,7 +7,7 @@
 
 
 ##### Мой стек: Python, FastAPI, Docker, Django, PostgreSQL, SQLAlchemy, Redis, Celery
-<div style="background-color: white;">
+<div style="display: flex; align-items:center;">
   <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="80" height="80"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="80" height="80"/>
