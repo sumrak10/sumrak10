@@ -23,6 +23,6 @@
 [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=sumrak10)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=compact&show_icons=true&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=compact&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sumrak10)](https://git.io/streak-stats)
