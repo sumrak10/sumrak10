@@ -4,19 +4,15 @@
   [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
 
   <h2>Hi, I'm sxmrxk</h2>
-<div align="center">
-<h3>My specializations:</h3>
-Team leading / Backend development / Web architecture / Development Operations
-</div>
+  <h3>My specializations:</h3>
+  Team leading / Backend development / Web architecture / Development Operations
 </div>
 
 
 
 ---
 
-<div align="center">
-  <h2>My technology stack</h2>
-</div>
+<h2>My technology stack</h2>
 <div align="center">
     <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" alt="FastAPI" width="160" height="160"/>
     <img src="https://github.com/devicons/devicon/blob/master/icons/sqlalchemy/sqlalchemy-original-wordmark.svg" title="SQLAlchemy" alt="SQLAlchemy" width="160" height="160"/>
