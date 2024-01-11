@@ -3,11 +3,11 @@
   
   [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
 
-  <h2>Hi, I'm sxmrxk</h2>
-  <h3>My specializations:</h3>
-  Team leading / Backend development / Web architecture / Development Operations
 </div>
 
+<h2>Hi, I'm Nurlan Urazkulov</h2>
+<h3>My specializations:</h3>
+Team leading / Backend development / Web architecture / Development Operations
 
 
 ---
@@ -32,17 +32,7 @@
     
 </div>
 <div align="center">
-  
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sumrak10&show_icons=true&show=reviews&theme=dracula)
-    
-</div>
-<div align="center">
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumrak10&layout=donut&show_icons=true&theme=dracula&exclude_repo=CuteAndCut)
 
-</div>
-<div align="center">
-  
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sumrak10&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
-    
 </div>
