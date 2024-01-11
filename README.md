@@ -4,13 +4,13 @@
   [![Telegram Badge](https://img.shields.io/badge/-@sxmrxk-26A5E4?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/sxmrxk)](https://t.me/sxmrxk)
 
   <h2>Hi, I'm sxmrxk</h2>
-</div>
-
-
 <div align="center">
 <h3>My specializations:</h3>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&duration=2000&pause=500&color=F7F7F7&center=true&vCenter=true&random=false&width=435&height=20&lines=Backend+development;Web+architecture;Development+Operations;Team+leading" alt="Typing SVG" /></a>
+Team leading / Backend development / Web architecture / Development Operations
 </div>
+</div>
+
+
 
 ---
 
